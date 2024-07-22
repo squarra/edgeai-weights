@@ -1,0 +1,25 @@
+description: Ultralytics best model trained on datasets/roadsigns/config.yaml
+author: Ultralytics
+date: '2024-07-22T15:52:40.463129'
+version: 8.2.26
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: car
+  1: person
+  2: van
+  3: rider
+  4: truck
+  5: tram
+  6: bus
+  7: train
+  8: motorcycle
+  9: bicycle
+  10: traffic light
+  11: street sign
